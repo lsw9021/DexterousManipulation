@@ -1,0 +1,4 @@
+1E1 1E2 1E3 1E3
+
+
+w_regularization w_smooth w_pos_track w_vel_track
