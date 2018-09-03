@@ -10,18 +10,24 @@ If you are interested in this implementation, please refer to the paper.
 
 # Prerequisite
 
+
 DART version 6 http://dartsim.github.io/ 
+
 Eigen version 3
+
 IPOPT https://projects.coin-or.org/Ipopt
+
 Boost
 
 As for the Projective Dynamics, I refers to the code of Tiantian Liu(http://tiantianliu.cn/).
 
 # How to build
 
+```console
 mkdir build 
 cd build
 cmake ..
+```
 
 If you want to simulate without volumetric muscles, you can disable USE_MUSCLE in CMakeLists.txt(or in ccmake)
 
